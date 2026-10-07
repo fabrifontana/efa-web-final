@@ -26,7 +26,7 @@ export function usePersonalData() {
         type: 'error',
         message:
           error instanceof TypeError
-            ? 'No se pudo conectar con el servidor. Comprobá que esté iniciado.'
+            ? 'No se pudo conectar con el servidor.'
             : error.message,
       });
     } finally {
